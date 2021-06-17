@@ -14,7 +14,7 @@ python labelme2yolo.py --path /path/to/labelme --output /path/to/yolo --object d
 
 --output : path to save converted yolo train data
 
--- object : define which object to convert
+--object : define which object to convert
 
--- ratio : define ration for splitting train, valid
+--ratio : define ration for splitting train, valid
 ```
