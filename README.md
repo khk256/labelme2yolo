@@ -8,7 +8,7 @@ This is simple python script to convert labelme annotation file into yolo darkne
 python labelme2yolo.py --path /path/to/labelme --output /path/to/yolo --object dog,cat,cow --ratio 0.9
 ```
 
-```bash
+```
 --path : type path to labelme labelme data directory, must be image and json pairs
 
 --output : path to save converted yolo training dataset (train, train.txt, valid, valid.txt, obj.data, obj.names)
