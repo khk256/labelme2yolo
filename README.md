@@ -1,20 +1,19 @@
 # labelme2yolo
-This is simple python code for converting labelme annotation file to yolo darknet format
+
+This is simple python script to convert labelme annotation file into yolo darknet dataset format.
 
 # How to use
 
 ```bash
-
 python labelme2yolo.py --path /path/to/labelme --output /path/to/yolo --object dog,cat,cow --ratio 0.9
-
 ```
 
-```
---path : path to labelme annotation
+```bash
+--path : type path to labelme labelme data directory, must be image and json pairs
 
---output : path to save converted yolo train data
+--output : path to save converted yolo training dataset (train, train.txt, valid, valid.txt, obj.data, obj.names)
 
---object : define which object to convert
+--object : define which object to convert, empty it for all object to be converted
 
---ratio : define ration for splitting train, valid
+--ratio : define ratio for splitting train, valid data. default : 0.9
 ```
