@@ -1,6 +1,6 @@
 # labelme2yolo
 
-This is simple python script to convert labelme annotation file into yolo darknet dataset format.
+This is simple python script to convert `labelme annotation dataset` into `darknet-yolo dataset` format.
 
 # How to use
 
